@@ -16,12 +16,12 @@ public class car {
 }
       class brand
       {
-    	  public String name= "Default";
+    	  public String name= "Default :";
     	  public int year = 10;
     	  
-    	  public brand(int g, String n)
-    	  {   year = g;
-    		  name = n;
+    	  public brand(int gd, String nam)
+    	  {   year = gd;
+    		  name = nam;
     	  }
     	  public void say(String n)
     	  {
