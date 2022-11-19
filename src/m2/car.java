@@ -20,10 +20,6 @@ public class car {
     	  public String name= "Default :";
     	  public int year = 5;
     	  
-    	  public brand(int gd, String nam)
-    	  {   year = gd;
-    		  name = nam;
-    	  }
     	  public void say(String n)
     	  {   if (n.equals("But Repco"))
     		  System.out.println(n+ " is not bad car");
@@ -31,4 +27,10 @@ public class car {
     		  System.out.println(n+ " is bad car");
     	  }
     	  public brand() {}
+    	  
+    	  public brand(int gd, String nam)
+    	  {   year = gd;
+    		  name = nam;
+    		  System.out.print("lay in trash , ");
+    	  }
       }
