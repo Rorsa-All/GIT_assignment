@@ -11,21 +11,24 @@ public class car {
 		System.out.println(car2.year+" years");
 		
 		car2.say("Tesla");
+		car2.say("But Repco");
 		
 	}
 }
       class brand
       {
     	  public String name= "Default :";
-    	  public int year = 10;
+    	  public int year = 5;
     	  
     	  public brand(int gd, String nam)
     	  {   year = gd;
     		  name = nam;
     	  }
     	  public void say(String n)
-    	  {
-    		  System.out.println(n+" is bad car");
+    	  {   if (n.equals("But Repco"))
+    		  System.out.println(n+ " is not bad car");
+    	  else
+    		  System.out.println(n+ " is bad car");
     	  }
     	  public brand() {}
       }
